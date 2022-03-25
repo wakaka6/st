@@ -116,6 +116,9 @@ char *xstrdup(const char *);
 
 int xgetcolor(int x, unsigned char *r, unsigned char *g, unsigned char *b);
 
+// from @LukeSmithxyz
+void externalpipe(const Arg *);
+
 /* config.h globals */
 extern char *utmp;
 extern char *scroll;

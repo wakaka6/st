@@ -234,6 +234,7 @@ index 6170176..97dc9cb 100644
 - [x] desktopentry 是st创建一个desktop条目到`/usr/share/applications` 目录中
 - [x] hidecursor 在终端下隐藏鼠标光标 当移动鼠标的时候又会显示
 - [x] blinking cursor 使st光标闪烁
+- [x] font2 当默认字体找不到编码时去font2数组中找
 
 
 
@@ -250,5 +251,21 @@ index 6170176..97dc9cb 100644
 | `Shift+Ctrl+`    | 加大终端字体大小             |
 | `Shift+Ctrl+`    | 减小终端字体大小             |
 | `Shift+Ctrl+Home` | 回到默认终端字体大小         |
+
+
+## 字体
+1. 字体的安装(e.g. 下载了一个nerd fond字体之后)
+```sh
+mv 下载的字体.ttf ~/.local/share/fonts/
+fc-cache -vf ~/.local/share/fonts/
+```
+
+2. 查找系统中可以用的字体
+```sh
+# 例如我这里找 source code pro的字体
+fc-list : family style | grep -i source
+```
+
+3. 替换`st/config.h` font数组中的字体, 或添加到font2数组中
 
 

@@ -1,5 +1,5 @@
 # st
-[st](https://st.suckless.org/) 是 suckless.org 社区中一个基于X的简单终端实现. 其代码短小高效, 十分的优雅.
+[st](https://st.suckless.org/) 是 suckless.org 社区中一个基于X的简单终端实现. 其代码短小精悍, 简洁高效, 十分的优雅.
 
 ## Prerequirement
 fonts: Source Code Pro  
@@ -238,14 +238,17 @@ index 6170176..97dc9cb 100644
 
 
 ## 自定义的快捷键
-| 键位         | 说明                         |
-|--------------|------------------------------|
-| `Ctrl+Alt+l` | 选择一个url用浏览器打开      |
-| `Alt+o`      | 选择一个输出结果复制到剪切板 |
-| `Alt+y`      | 选择一个url复制              |
-| `Alt+j`      | 向下滚一行                   |
-| `Alt+k`      | 向上滚一行                   |
-| `Alt+Ctrl+j` | 向下滚一屏幕                 |
-| `Alt+Ctrl+k` | 向上滚一屏幕                 |
+| 键位              | 说明                         |
+|-------------------|------------------------------|
+| `Ctrl+Alt+l`      | 选择一个url用浏览器打开      |
+| `Alt+o`           | 选择一个输出结果复制到剪切板 |
+| `Alt+y`           | 选择一个url复制              |
+| `Alt+j`           | 向下滚一行                   |
+| `Alt+k`           | 向上滚一行                   |
+| `Alt+Ctrl+j`      | 向下滚一屏幕                 |
+| `Alt+Ctrl+k`      | 向上滚一屏幕                 |
+| `Shift+Ctrl+`    | 加大终端字体大小             |
+| `Shift+Ctrl+`    | 减小终端字体大小             |
+| `Shift+Ctrl+Home` | 回到默认终端字体大小         |
 
 
